@@ -33,17 +33,7 @@ export default function App(){
 
     useEffect(()=>{
         //Por implementar logica dos tickets
-        // async function getTickets(){
-        //     apiService.tickets().then(resultado =>{
-        //       
-        //         if( resultado != "sucesso") setTickets(criaSpanError(resultado.data))
-
-        //         else setTickets(resultado)
-
-        //     })
-        // }
         
-        // getTickets();
 
     },[])
     
@@ -87,10 +77,8 @@ export default function App(){
 
                 
             <div className="tickets">
-                {/* Por implementar */}
-                {/* {!tickets && "Carregando..."}
-
-                { tickets.status === "sucesso" ? <Table tickets={tickets.data.tickets} /> : tickets} */}
+              
+                <Table  /> 
             </div>
 
             </article>
